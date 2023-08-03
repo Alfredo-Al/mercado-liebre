@@ -1,0 +1,48 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 { 
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.dcto{
+    font-size: 16px;
+}
+
+.des{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+footer {
+    background-color: white;
+}
+
+.border{
+    background-color: #1259c3;
+    width: 18px;
+    border: none;
+}
