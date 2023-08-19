@@ -1,0 +1,65 @@
+.name{
+    margin: 10px;
+    border-radius: 5px;
+}
+.user{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.date{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.adress{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.file{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.password{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.confirm-password{
+        margin: 10px;
+        border-radius: 5px;
+}
+
+.send{
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.erase{
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-mgleft-20px{
+    margin-left: 20px;
+}
+
+@media (min-width: 361px){
+    .perfil{
+        display:block;
+
+    }
+}
