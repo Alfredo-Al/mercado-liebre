@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
+
 .inputs-login{
     margin: 10px;
     border-radius: 5px;
@@ -17,6 +18,12 @@
     width: 80%;
     margin: 10px;
     text-align: center ;
+    transition: background-color 0.3s
+}
+
+.send-login:hover{
+    background-color: #0022AA;
+    transition: background-color 0.3s;
 }
 
 .inputs-center{

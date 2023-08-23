@@ -33,6 +33,8 @@ header {
 .des{
     font-size: 16px;
     font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 body {
@@ -143,6 +145,12 @@ main {
     border: 15px;
     background-color: white;
     box-sizing: border-box;
+    position: relative;
+}
+
+.articulo:hover .des{
+    opacity: 1;
+    transition: opacity 0.3s;
 }
 
 .images{
@@ -186,8 +194,13 @@ position: absolute;
 right: -90%;
 top: -30px;
 position: relative;
+transition: transform 0.3s;
 }
 
+.articulo:hover .boton{
+        transform: rotate(90deg);
+        transition: transform 0.3s;
+}
 .header-top{
     display: flex;
     flex-wrap: wrap;
