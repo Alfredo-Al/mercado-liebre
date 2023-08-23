@@ -56,6 +56,7 @@ footer {
 .sec-footer-copyrigth{
     width: 100%;
     justify-content: center;
+    text-align: center;
 }
 
 .burger-menu {
