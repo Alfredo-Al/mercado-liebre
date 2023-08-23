@@ -4,9 +4,9 @@ const app = express ();
 
 const path = require('path')
 
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 app.listen(port, () => {
-    console.log('Servicor corriendo en el puerto ' + port)
+    console.log('Servicor corriendo en el puerto ' + PORT)
 });
 
 app.use(express.static(path.join(__dirname, '../public')));
