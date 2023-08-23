@@ -42,12 +42,20 @@ body {
 
 footer {
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sec-footer{
     display: inline;
     justify-content: center;
     text-align: center;
+    width: 33%
+}
+
+.sec-footer-copyrigth{
+    width: 100%;
+    justify-content: center;
 }
 
 .burger-menu {
@@ -79,19 +87,22 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    color: blue
 }
 
 .gift{
     font-size: 2em;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: blue
 }
 
 .security{
     font-size: 2em;
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: blue;
 }
 
 .titulos-footer {
